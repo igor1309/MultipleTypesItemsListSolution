@@ -6,7 +6,7 @@ import Foundation
 
 protocol Item: Identifiable {
 
-    var id: UUID
+    var id: UUID { get }
     var name: String { get }
 }
 
